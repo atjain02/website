@@ -1,0 +1,37 @@
+.about {
+    display: flex;
+    flex-direction: row;
+}
+
+.headshot {
+    display: block;
+    height: 100%;
+    width: auto;
+    max-height: 400px;
+    order: 2;
+}
+
+.aboutTextContainer {
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    order: 1;
+    flex-grow: 2;
+    text-align: center;
+}
+
+.aboutText {
+    padding: 10px;
+}
+
+#keywordsContainer {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+.keyword {
+    padding: 10px;
+}
