@@ -26,7 +26,9 @@ function NavBar() {
               <NavBarLink section="About" />
               <NavBarLink section="Education" />
               <NavBarLink section="Experience" />
+              <NavBarLink section="Projects" />
               <NavBarLink section="Skills" />
+              <NavBarLink section="Contact Me" />
             </ul>
           {/* </div> */}
         {/* </div> */}

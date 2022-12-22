@@ -1,16 +1,13 @@
-* {
-    /* box-sizing: border-box; */
-    /* padding: 0; */
-    /* margin: 0; */
-    /* scroll-behavior: smooth; */
-    /* font-family: var(--font-family); */
-  }
+html {
+  /* margin: 0; */
+  /* padding: 5px; */
+  /* max-height: 100vh; */
+  /* overflow: hidden; */
+  /* background-color: blue; */
+  height: 100%
+}
 
-  body {
-    /* background: var(--color-bg); */
-  }
-
-  a {
-    /* color: unset; */
-    /* text-decoration: none; */
-  }
+body {
+  /* background: rgba(1, 1, 1, 0); */
+  /* height: 100%; */
+}
