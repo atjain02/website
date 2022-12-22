@@ -1,10 +1,9 @@
 import React from 'react'
-import './skills.css'
 
-function skills() {
+function Skills() {
   return (
-    <div>skills</div>
+    <div id="Skills">Skills</div>
   )
 }
 
-export default skills
+export default Skills

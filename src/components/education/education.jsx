@@ -2,8 +2,8 @@ import React from 'react'
 
 function education() {
   return (
-    <div>
-      Education
+    <div id="Education" className="flex flex-row items-center object-center justify-between m-4 p-4 px-24 border-dashed border-2 rounded-2xl">
+      {/* Education */}
       <div>
         <ul>
           <li>Georiga Institute of Technology</li>
