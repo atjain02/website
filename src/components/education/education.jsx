@@ -1,21 +1,26 @@
 import React from "react";
 
-function education() {
+function education({ flipped }) {
   return (
     <div id="Education" className="section">
-      <div className="sectionLabel">Education</div>
-      <div className="m-2 p-8 text-right">
+      <div className={`sectionLabel order-${flipped}`}>Education</div>
+      <div className="sectionContent">
         <ul>
-          <li className="font-bold">Georiga Institute of Technology</li>
-          <li>
-            Concentrations: Artificial Intelligence & Systems and Architecture
+          <li className="font-extrabold">Georiga Institute of Technology</li>
+          <li className="flex flex-row justify-between">
+            <a className="font-semibold">Concentrations:</a>{" "}
+            <a>Artificial Intelligence & Systems and Architecture</a>
           </li>
-          <li>GPA: 4.0 out of 4.0</li>
-          <li>
-            Relevant Coursework: Data Structures/Algorithms, Object Oriented
-            Programming, Systems & Networks, Probability & Statistics, Computer
-            Organization/Memory, Machine Learning, Combinatorics, Linear
-            Algebra, Discrete Math
+          <li className="flex flex-row justify-between">
+            <a className="font-semibold">GPA:</a> <a>4.0 out of 4.0</a>
+          </li>
+          <li className="flex flex-row justify-between flex-nowrap">
+            <a className="font-semibold">Relevant Coursework:</a>
+            <p className='basis-3/4 text-right'>
+              Data Structures/Algorithms, Object Oriented Programming, Operating Systems &
+              Networks, Probability & Statistics, Computer Organization/Memory,
+              Machine Learning, Combinatorics, Linear Algebra, Discrete Math
+            </p>
           </li>
         </ul>
       </div>

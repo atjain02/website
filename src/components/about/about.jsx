@@ -6,7 +6,7 @@ function about() {
   return (
     <div
       id="About"
-      className="section p-4 pb-7 px-28"
+      className="section p-4 pb-7 px-28 items-center"
     >
       <div className="text-center">
         <a className="text-xl">I'm </a>

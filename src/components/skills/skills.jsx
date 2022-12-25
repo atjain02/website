@@ -1,15 +1,10 @@
 import React from "react";
 
-function Skills() {
+function Skills({ flipped }) {
   return (
-    <div
-      id="Skills"
-      className="section"
-    >
-      <div className="m-2 p-8">
-        <div className="sectionLabel">
-          Skills
-        </div>
+    <div id="Skills" className="section">
+      <div className={`sectionLabel order-${flipped}`}>Skills</div>
+      <div className="sectionContent">
       </div>
     </div>
   );
