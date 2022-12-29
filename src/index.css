@@ -12,7 +12,7 @@
   }
 
   .sectionLabel {
-    @apply bg-slate-700 m-2 rounded-2xl text-white basis-1/6 text-center flex-none flex flex-col justify-center font-extrabold text-3xl dark:bg-slate-400 dark:text-slate-800;
+    @apply bg-slate-700 m-2 rounded-2xl text-white basis-1/6 text-center flex-none flex flex-col justify-center font-extrabold text-4xl dark:bg-slate-400 dark:text-slate-800;
   }
 
   .sectionContent {
@@ -25,5 +25,9 @@
 
   .showableBorder {
     @apply group-hover:border-2 border-slate-700 border-dashed rounded-lg p-2
+  }
+
+  .skillsIcon {
+    @apply w-12 h-12
   }
 }

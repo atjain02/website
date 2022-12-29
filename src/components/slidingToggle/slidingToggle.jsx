@@ -5,7 +5,7 @@ function SlidingToggle({ darkToggle, setDarkToggle }) {
   return (
     <div className="flex flex-row">
       <p className="font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white">
-        Dark Mode
+        Dark Mode!
       </p>
       <label class="toggleDarkBtn align-middle">
         <input type="checkbox" onClick={() => setDarkToggle(!darkToggle)} />

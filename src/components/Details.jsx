@@ -1,11 +1,10 @@
 import React from "react";
 
 function Details({ title, org, date, location, content, expanded }) {
-  const bottomPadding = expanded ? 8 : 6;
   return (
-    <div className={`mb-${bottomPadding}`}>
+    <div className={'mb-8'}>
       <div className="flex flex-row justify-between flex-nowrap">
-        <a className="font-bold text-left text-lg">{title} + {(expanded).toString()}</a>
+        <a className="font-bold text-left text-lg">{title}</a>
         <i className="text-right text-base">{date}</i>
       </div>
       <div className="flex flex-row justify-between flex-nowrap">

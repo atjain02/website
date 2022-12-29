@@ -18,15 +18,15 @@ function Education({ flipped }) {
 
   return (
     <div id="Education" className="section clickable group" onClick={toggleExpanded}>
-      <div className={`sectionLabel order-${flipped}`}>Education {flipped}</div>
+      <div className={`sectionLabel order-${flipped}`}>Education</div>
       <div className="sectionContent">
         <ul className="space-y-4 p-2">
           <li className="flex flex-row justify-between">
-            <a className="font-extrabold">Georgia Institute of Technology:</a>{" "}
+            <a className="font-extrabold">Georgia Institute of Technology:</a>
             <a>Bachelor's of Computer Science</a>
           </li>
           <li className="flex flex-row justify-between">
-            <a className="font-semibold">Concentrations:</a>{" "}
+            <a className="font-semibold">Concentrations:</a>
             <a>Artificial Intelligence & Systems and Architecture</a>
           </li>
           <li className="flex flex-row justify-between">
