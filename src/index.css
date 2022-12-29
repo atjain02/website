@@ -4,7 +4,7 @@
 
 @layer components {
   .section {
-    @apply flex flex-row items-stretch object-center justify-between m-4 p-2 rounded-2xl shadow-md bg-white;
+    @apply flex flex-row items-stretch object-center justify-between m-4 p-2 rounded-2xl shadow-md bg-white dark:bg-slate-600 dark:text-white;
   }
 
   .clickable {
@@ -12,7 +12,7 @@
   }
 
   .sectionLabel {
-    @apply bg-slate-700 m-2 rounded-2xl text-white basis-1/6 text-center flex-none flex flex-col justify-center font-extrabold text-2xl;
+    @apply bg-slate-700 m-2 rounded-2xl text-white basis-1/6 text-center flex-none flex flex-col justify-center font-extrabold text-3xl dark:bg-slate-400 dark:text-slate-800;
   }
 
   .sectionContent {
@@ -20,7 +20,7 @@
   }
 
   .expandCollapseIcon {
-    @apply mt-6 hidden group-hover:block
+    @apply mt-6 hidden group-hover:block scale-150
   }
 
   .showableBorder {

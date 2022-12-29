@@ -6,3 +6,4 @@ export { default as Experience } from './experience/experience';
 export { default as Projects } from './projects/projects';
 export { default as ContactMe } from './contactme/contactme';
 export { default as Research } from './research/research';
+export { default as SlidingToggle } from './slidingToggle/slidingToggle';

@@ -2,7 +2,7 @@ import React from "react";
 import ExpandCollapseIcon from "./ExpandCollapseIcon.jsx";
 
 function Expandable({ children, initial, flipped }) {
-  const [expanded, setExpanded] = React.useState(initial);
+  const [expanded, setExpanded] = React.useState(true);
 
   function toggleExpanded() {
     setExpanded(!expanded);

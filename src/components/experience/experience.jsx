@@ -1,13 +1,10 @@
 import React from "react";
 import Details from "../Details.jsx";
-import ExpandCollapseIcon from "../ExpandCollapseIcon.jsx";
 
-function Experience({ flipped }) {
-  const [expanded, setExpanded] = React.useState(true);
-
+function Experience({ flipped, expanded, ExpandCollapseIcon }) {
   return (
-    <div id="Experience" className="section clickable group" onClick={() => setExpanded(!expanded)}>
-      <div className={`sectionLabel order-${flipped}`}>Experience {flipped}</div>
+    <div id="Experience" className="section">
+      <div className={`sectionLabel order-${flipped}`}>Experience</div>
       <div className="sectionContent">
         <Details
           title="Software Engineering Intern"
@@ -45,8 +42,7 @@ function Experience({ flipped }) {
             </ul>
           }
         />
-
-        <ExpandCollapseIcon expanded={expanded} flipped={flipped} />
+        {ExpandCollapseIcon}
       </div>
     </div>
   );

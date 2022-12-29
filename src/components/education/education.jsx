@@ -21,7 +21,10 @@ function Education({ flipped }) {
       <div className={`sectionLabel order-${flipped}`}>Education {flipped}</div>
       <div className="sectionContent">
         <ul className="space-y-4 p-2">
-          <li className="font-extrabold">Georiga Institute of Technology</li>
+          <li className="flex flex-row justify-between">
+            <a className="font-extrabold">Georgia Institute of Technology:</a>{" "}
+            <a>Bachelor's of Computer Science</a>
+          </li>
           <li className="flex flex-row justify-between">
             <a className="font-semibold">Concentrations:</a>{" "}
             <a>Artificial Intelligence & Systems and Architecture</a>
