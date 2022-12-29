@@ -6,7 +6,6 @@ import IconDesc from "../IconDesc";
 function ContactMe({ flipped }) {
   return (
     <div id="Contact Me" className="section">
-      <div className={`sectionLabel order-${flipped}`}>Contact Me</div>
       <div className="sectionContent">
         <div className="flex flex-row justify-between">
           <IconDesc
@@ -28,6 +27,7 @@ function ContactMe({ flipped }) {
           />
         </div>
       </div>
+      <div className={`sectionLabel`}>Contact Me</div>
     </div>
   );
 }

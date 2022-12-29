@@ -4,7 +4,6 @@ import Details from "../Details.jsx";
 function Experience({ flipped, expanded, ExpandCollapseIcon }) {
   return (
     <div id="Experience" className="section">
-      <div className={`sectionLabel order-${flipped}`}>Experience</div>
       <div className="sectionContent">
         <Details
           title="Software Engineering Intern"
@@ -44,6 +43,7 @@ function Experience({ flipped, expanded, ExpandCollapseIcon }) {
         />
         {ExpandCollapseIcon}
       </div>
+      <div className={`sectionLabel`}>Experience</div>
     </div>
   );
 }

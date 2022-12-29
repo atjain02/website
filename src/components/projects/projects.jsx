@@ -4,7 +4,6 @@ import Details from "../Details";
 function Projects({ flipped, expanded, ExpandCollapseIcon }) {
   return (
     <div id="Projects" className="section">
-      <div className={`sectionLabel order-${flipped}`}>Projects</div>
       <div className="sectionContent">
         <Details
           title="Edu-Nav"
@@ -42,9 +41,10 @@ function Projects({ flipped, expanded, ExpandCollapseIcon }) {
             </ul>
           }
         />
-        
+
         {ExpandCollapseIcon}
       </div>
+      <div className={`sectionLabel`}>Projects</div>
     </div>
   );
 }

@@ -28,7 +28,7 @@
   }
 
   .skillsIcon {
-    @apply w-12 h-12 dark:fill-white group-hover/row:scale-125 transition-all group-hover:scale-150 duration-300
+    @apply w-12 h-12 dark:fill-white group-hover/row:scale-125 transition-all duration-300
   }
 
   .skillsRow {
