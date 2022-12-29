@@ -10,9 +10,9 @@ function ContactMe({ flipped }) {
       <div className="sectionContent">
         <div className="flex flex-row justify-between">
           <IconDesc
-            href="mailto: atijain02@gmail.com"
+            href="mailto: ati.jain02@gmail.com"
             icon={<SiMinutemailer className="w-24 h-24" />}
-            desc="atijain02@gmail.com"
+            desc="ati.jain02@gmail.com"
           />
 
           <IconDesc

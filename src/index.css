@@ -12,7 +12,7 @@
   }
 
   .sectionLabel {
-    @apply bg-slate-700 m-2 rounded-2xl text-white basis-1/6 text-center flex-none flex flex-col justify-center font-extrabold text-4xl dark:bg-slate-400 dark:text-slate-800;
+    @apply bg-slate-700 m-2 rounded-2xl text-white basis-1/6 text-center uppercase flex-none flex flex-col justify-center font-mono font-extrabold text-4xl dark:bg-slate-400 dark:text-slate-800;
   }
 
   .sectionContent {
@@ -28,6 +28,14 @@
   }
 
   .skillsIcon {
-    @apply w-12 h-12
+    @apply w-12 h-12 dark:fill-white group-hover/row:scale-125 transition-all group-hover:scale-150 duration-300
+  }
+
+  .skillsRow {
+    @apply flex flex-row justify-between items-center
+  }
+
+  .skillsIconsResp {
+    @apply flex flex-row space-x-4 flex-wrap mx-4 justify-center
   }
 }

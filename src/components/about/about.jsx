@@ -1,5 +1,4 @@
 import React from "react";
-import "./about.css";
 import headshotNoBack from "../../assets/HeadshotBackRemoved.png";
 
 function about() {
