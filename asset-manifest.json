@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/http//:atjain02.github.io/website/static/css/main.a911b65e.css",
+    "main.js": "/http//:atjain02.github.io/website/static/js/main.760b7ee5.js",
+    "static/media/HeadshotBackRemoved.png": "/http//:atjain02.github.io/website/static/media/HeadshotBackRemoved.9590d33596e9180a3b2d.png",
+    "index.html": "/http//:atjain02.github.io/website/index.html",
+    "main.a911b65e.css.map": "/http//:atjain02.github.io/website/static/css/main.a911b65e.css.map",
+    "main.760b7ee5.js.map": "/http//:atjain02.github.io/website/static/js/main.760b7ee5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a911b65e.css",
+    "static/js/main.760b7ee5.js"
+  ]
+}
