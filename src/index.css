@@ -4,14 +4,26 @@
 
 @layer components {
   .section {
-    @apply flex flex-row items-stretch object-center justify-between m-4 p-2 rounded-2xl shadow-md bg-white
+    @apply flex flex-row items-stretch object-center justify-between m-4 p-2 rounded-2xl shadow-md bg-white;
+  }
+
+  .clickable {
+    @apply hover:drop-shadow-2xl hover:scale-[1.01] transition-all cursor-pointer
   }
 
   .sectionLabel {
-    @apply bg-slate-700 m-2 rounded-2xl text-white basis-1/6 text-center flex-none flex flex-col justify-center font-extrabold text-2xl
+    @apply bg-slate-700 m-2 rounded-2xl text-white basis-1/6 text-center flex-none flex flex-col justify-center font-extrabold text-2xl;
   }
 
   .sectionContent {
-    @apply m-2 p-4 text-left flex-1
+    @apply m-2 p-4 text-left flex-1;
+  }
+
+  .expandCollapseIcon {
+    @apply mt-6 hidden group-hover:block
+  }
+
+  .showableBorder {
+    @apply group-hover:border-2 border-slate-700 border-dashed rounded-lg p-2
   }
 }

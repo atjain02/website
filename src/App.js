@@ -7,8 +7,11 @@ import {
   Skills,
   Projects,
   ContactMe,
-  Research
+  Research,
 } from "./components";
+
+import Expandable from "./components/Expandable";
+
 import "./App.css";
 
 const App = () => (
@@ -16,12 +19,31 @@ const App = () => (
     <NavBar />
     <About />
     {/* <div className="flex flex-col"> */}
-      <Education />
-      <Experience flipped="1"/>
-      <Research/>
-      <Projects flipped="1"/>
-      <Skills />
-      <ContactMe flipped="1"/>
+    <Education flipped="0" />
+    <Experience flipped="1" />
+
+    <Expandable flipped="0" initial={true}>
+      {(flipped, expanded, ExpandCollapseIcon) => (
+        <Research
+          flipped={flipped}
+          expanded={expanded}
+          ExpandCollapseIcon={ExpandCollapseIcon}
+        />
+      )}
+    </Expandable>
+
+    <Expandable flipped="1" initial={true}>
+      {(flipped, expanded, ExpandCollapseIcon) => (
+        <Projects
+          flipped={flipped}
+          expanded={expanded}
+          ExpandCollapseIcon={ExpandCollapseIcon}
+        />
+      )}
+    </Expandable>
+
+    <Skills flipped="0" />
+    <ContactMe flipped="1" />
     {/* </div> */}
   </div>
 );

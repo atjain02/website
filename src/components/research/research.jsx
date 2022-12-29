@@ -1,7 +1,7 @@
 import React from "react";
 import Details from "../Details";
 
-function Research({ flipped }) {
+function Research({ flipped, expanded, ExpandCollapseIcon }) {
   return (
     <div id="Research" className="section">
       <div className={`sectionLabel order-${flipped}`}>Research</div>
@@ -11,6 +11,7 @@ function Research({ flipped }) {
           date="August 2022 - Present"
           org="AVA Lab"
           location="Atlanta, GA"
+          expanded={expanded}
           content={
             <ul className="list-disc list-inside">
               <li>
@@ -34,6 +35,7 @@ function Research({ flipped }) {
           title="Machine Learning Safety Scholar's Program"
           date="June 2022 - August 2022"
           org="Center for AI Safety"
+          expanded={expanded}
           content={
             <ul className="list-disc list-inside">
               <li>
@@ -51,6 +53,7 @@ function Research({ flipped }) {
             </ul>
           }
         />
+        {ExpandCollapseIcon}
       </div>
     </div>
   );
