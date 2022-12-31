@@ -3,7 +3,7 @@ import Details from "../Details";
 
 function Projects({ flipped, expanded, ExpandCollapseIcon }) {
   return (
-    <div id="Projects" className="section">
+    <div id="Projects" className="section dark:bg-gradient-to-bl">
       <div className="sectionContent">
         <Details
           title="Edu-Nav"

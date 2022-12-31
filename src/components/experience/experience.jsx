@@ -3,8 +3,26 @@ import Details from "../Details.jsx";
 
 function Experience({ flipped, expanded, ExpandCollapseIcon }) {
   return (
-    <div id="Experience" className="section">
+    <div id="Experience" className="section dark:bg-gradient-to-bl">
       <div className="sectionContent">
+      <Details
+          title="Software Engineering Intern"
+          date="August 2022 - December 2022"
+          location="Atlanta, GA"
+          org="MintED"
+          expanded={expanded}
+          content={
+            <ul className="list-disc textContent">
+              <li>
+                Developed a backend API using NodeJS, GraphQL, MongoDB, to support the creation of Ethereum NFTs
+              </li>
+              <li>
+                Used Solidity to write and deploy Ethereum Smart Contracts for a Web3 app to commemorate digital assets
+              </li>
+            </ul>
+          }
+        />
+
         <Details
           title="Software Engineering Intern"
           date="January 2022 - August 2022"

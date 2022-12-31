@@ -2,7 +2,7 @@ import React from "react";
 
 function IconDesc( {href, icon, desc} ) {
   return (
-    <div className="flex flex-col items-center group hover:scale-125 duration-500">
+    <div className="flex flex-col items-center group hover:scale-125 duration-500 shrink">
       <a href={href}>
         {icon}
       </a>

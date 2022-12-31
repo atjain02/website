@@ -5,21 +5,21 @@ function about() {
   return (
     <div
       id="About"
-      className="section p-4 pb-7 px-28 items-center"
+      className="section p-4 items-center dark:bg-gradient-to-b flex flex-row justify-around"
     >
-      <div className="text-center">
-        <a className="text-xl">I'm </a>
-        <a className="text-4xl tracking-wider text-center hover:tracking-widest transition-all">
+      <div className="text-center text-xl basis-11/12 shrink">
+        <a className="">I'm </a>
+        <a className="text-5xl tracking-wider text-center hover:tracking-widest transition-all">
           Atishay Jain
         </a>
         <a>,</a>
         <div>
           <a>a </a>
-          <a className="text-2xl tracking-wide text-center hover:tracking-wider transition-all">
+          <a className="text-4xl tracking-wide text-center hover:tracking-wider transition-all">
             Computer Science
           </a>
           <a> major at </a>
-          <a className="text-2xl tracking-wide text-center hover:tracking-wider transition-all">
+          <a className="text-4xl tracking-wide text-center hover:tracking-wider transition-all">
             Georgia Tech
           </a>
           <a>.</a>
@@ -29,15 +29,15 @@ function about() {
           research, or Finance, I'm always looking to
         </div>
         <div>
-          <a className="text-3xl tracking-tight text-center hover:tracking-widest transition-all">
+          <a className="text-4xl tracking-tight text-center hover:tracking-widest transition-all">
             Learn
           </a>
           <a> , </a>
-          <a className="text-3xl tracking-tight text-center hover:tracking-widest transition-all">
+          <a className="text-4xl tracking-tight text-center hover:tracking-widest transition-all">
             Innovate
           </a>
           <a> , </a>
-          <a className="text-3xl tracking-tight text-center hover:tracking-widest transition-all">
+          <a className="text-4xl tracking-tight text-center hover:tracking-widest transition-all">
             Grow
           </a>
         </div>
@@ -45,7 +45,7 @@ function about() {
       <img
         src={headshotNoBack}
         alt="Atishay Jain"
-        className="flex-initial max-w-xs rounded-3xl"
+        className="shrink basis-1/12 rounded-3xl"
       ></img>
     </div>
   );
