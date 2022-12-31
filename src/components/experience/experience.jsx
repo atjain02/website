@@ -1,5 +1,6 @@
 import React from "react";
 import Details from "../Details.jsx";
+import { RiComputerLine } from "react-icons/ri"
 
 function Experience({ flipped, expanded, ExpandCollapseIcon }) {
   return (
@@ -61,7 +62,10 @@ function Experience({ flipped, expanded, ExpandCollapseIcon }) {
         />
         {ExpandCollapseIcon}
       </div>
-      <div className={`sectionLabel`}>Experience</div>
+      <div className={`sectionLabel`}>
+        <RiComputerLine className="labelIcon"/>
+        <a>Experience</a>
+      </div>
     </div>
   );
 }

@@ -1,10 +1,14 @@
 import React from "react";
 import Details from "../Details";
+import { GiArchiveResearch } from "react-icons/gi"
 
 function Research({ flipped, expanded, ExpandCollapseIcon }) {
   return (
     <div id="Research" className="section">
-      <div className={`sectionLabel order-${flipped}`}>Research</div>
+      <div className={`sectionLabel order-${flipped}`}>
+        <GiArchiveResearch className="labelIcon" />
+        <a>Research</a>
+      </div>
       <div className="sectionContent">
         <Details
           title="Undergraduate Researcher"

@@ -18,13 +18,17 @@ import {
   SiMongodb,
   SiFirebase,
 } from "react-icons/si";
+import {GiSkills} from "react-icons/gi";
 import IconDesc from "../IconDesc";
 import { CPP } from "../../assets/icons";
 
 function Skills({ flipped }) {
   return (
     <div id="Skills" className="section">
-      <div className={`sectionLabel order-${flipped}`}>Skills</div>
+      <div className={`sectionLabel order-${flipped}`}>
+        <GiSkills className="labelIcon" />
+        <a>Skills</a>
+      </div>
       <div className="sectionContent">
         <div className="flex flex-col space-y-8">
           <div className="skillsRow group/row">

@@ -2,6 +2,7 @@ import React from "react";
 import { FaGithub, FaLinkedin, FaMailBulk } from "react-icons/fa";
 import { SiMinutemailer } from "react-icons/si";
 import IconDesc from "../IconDesc";
+import { AiFillPhone } from "react-icons/ai";
 
 function ContactMe({ flipped }) {
   return (
@@ -27,7 +28,10 @@ function ContactMe({ flipped }) {
           />
         </div>
       </div>
-      <div className={`sectionLabel`}>Contact Me</div>
+      <div className={`sectionLabel`}>
+        <AiFillPhone className="labelIcon" />
+        <a> Contact Me</a>
+      </div>
     </div>
   );
 }

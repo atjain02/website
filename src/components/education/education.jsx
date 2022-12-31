@@ -1,5 +1,6 @@
 import React from "react";
 import ExpandCollapseIcon from "../ExpandCollapseIcon";
+import { GiBookshelf } from "react-icons/gi"
 
 function Education({ flipped }) {
   const [expanded, setExpanded] = React.useState(false);
@@ -18,7 +19,10 @@ function Education({ flipped }) {
 
   return (
     <div id="Education" className="section clickable group" onClick={toggleExpanded}>
-      <div className={`sectionLabel order-${flipped}`}>Education</div>
+      <div className={`sectionLabel order-${flipped}`}>
+        <GiBookshelf className="labelIcon"/>
+        <a>Education</a>
+      </div>
       <div className="sectionContent">
         <ul className="space-y-4 p-2">
           <li className="flex flex-row justify-between">

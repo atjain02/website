@@ -1,5 +1,6 @@
 import React from "react";
 import Details from "../Details";
+import {FaCodeBranch } from "react-icons/fa";
 
 function Projects({ flipped, expanded, ExpandCollapseIcon }) {
   return (
@@ -44,7 +45,10 @@ function Projects({ flipped, expanded, ExpandCollapseIcon }) {
 
         {ExpandCollapseIcon}
       </div>
-      <div className={`sectionLabel`}>Projects</div>
+      <div className={`sectionLabel`}>
+        <FaCodeBranch className="labelIcon"/>
+        <a>Projects</a>
+      </div>
     </div>
   );
 }
