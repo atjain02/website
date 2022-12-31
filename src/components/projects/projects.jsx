@@ -10,7 +10,7 @@ function Projects({ flipped, expanded, ExpandCollapseIcon }) {
           date="October 2020 - Present"
           expanded={expanded}
           content={
-            <ul className="list-disc list-inside">
+            <ul className="list-disc textContent">
               <li>
                 Conceived, created, and currently operate Edu-Nav (a web-app)
                 that streamlines event-management, navigation, and scheduling in
@@ -29,7 +29,7 @@ function Projects({ flipped, expanded, ExpandCollapseIcon }) {
           date="August 2021 - January 2022"
           expanded={expanded}
           content={
-            <ul className="list-disc list-inside">
+            <ul className="list-disc textContent">
               <li>
                 Trained classification models to predict the risk of heart
                 disease in individuals in varying cities based on health history

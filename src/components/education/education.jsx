@@ -22,23 +22,23 @@ function Education({ flipped }) {
       <div className="sectionContent">
         <ul className="space-y-4 p-2">
           <li className="flex flex-row justify-between">
-            <a className="font-extrabold">Georgia Institute of Technology:</a>
-            <a>Bachelor's of Computer Science</a>
+            <a className="textLabel">Georgia Institute of Technology</a>
+            <a className="textContent">Bachelor's of Computer Science</a>
           </li>
           <li className="flex flex-row justify-between">
-            <a className="font-semibold">Concentrations:</a>
-            <a>Artificial Intelligence & Systems and Architecture</a>
+            <a className="textLabel">Concentrations:</a>
+            <a className="textContent">Artificial Intelligence & Systems and Architecture</a>
           </li>
           <li className="flex flex-row justify-between">
-            <a className="font-semibold">GPA:</a> <a>4.0 out of 4.0</a>
+            <a className="textLabel">GPA:</a> <a className="textContent">4.0 out of 4.0</a>
           </li>
 
           <li className="flex flex-row justify-between flex-nowrap">
-            <a className="font-semibold">Organizations:</a>
+            <a className="textLabel">Organizations:</a>
             <div className={(expanded ? "hidden " : "") + "basis-3/4"}>
-              <p className=" text-right">{orgs}</p>
+              <p className="textContent text-right ml-4">{orgs}</p>
             </div>
-            <ul className={expanded ? "" : "hidden"}>
+            <ul className={expanded ? "textContent" : "hidden"}>
               {orgsArr.map((org) => {
                 return <li>{org}</li>;
               })}
@@ -46,11 +46,11 @@ function Education({ flipped }) {
           </li>
 
           <li className="flex flex-row justify-between flex-nowrap">
-            <a className="font-semibold">Relevant Coursework:</a>
+            <a className="textLabel">Relevant Coursework:</a>
             <div className={(expanded ? "hidden " : "") + "basis-3/4"}>
-              <p className=" text-right">{courses}</p>
+              <p className="textContent text-right ml-4">{courses}</p>
             </div>
-            <ul className={expanded ? "" : "hidden"}>
+            <ul className={expanded ? "textContent" : "hidden"}>
               {coursesArr.map((course) => {
                 return <li>{course}</li>;
               })}

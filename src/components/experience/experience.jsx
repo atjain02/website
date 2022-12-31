@@ -11,7 +11,7 @@ function Experience({ flipped, expanded, ExpandCollapseIcon }) {
           org="Shardings"
           expanded={expanded}
           content={
-            <ul className="list-disc list-inside">
+            <ul className="list-disc textContent">
               <li>
                 Used React-Native, the MERN tech stack, and Google Cloud for
                 full-stack website and app development
@@ -34,7 +34,7 @@ function Experience({ flipped, expanded, ExpandCollapseIcon }) {
           location="Exton, PA"
           expanded={expanded}
           content={
-            <ul className="list-disc list-inside">
+            <ul className="list-disc textContent">
               <li>
                 Quantified risks and created pricing models using R, and experienced data modeling, actuarial science, and underwriting
               </li>

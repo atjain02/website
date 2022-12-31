@@ -21,7 +21,7 @@ const App = () => {
   return (
     <div className={`App ${darkToggle && "dark"}`}>
       <div className="font-sans bg-slate-100 pb-1 dark:bg-slate-800">
-        
+
         <NavBar>
           <SlidingToggle
             darkToggle={darkToggle}

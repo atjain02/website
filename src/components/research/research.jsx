@@ -13,7 +13,7 @@ function Research({ flipped, expanded, ExpandCollapseIcon }) {
           location="Atlanta, GA"
           expanded={expanded}
           content={
-            <ul className="list-disc list-inside">
+            <ul className="list-disc textContent">
               <li>
                 Researching with Professor Larry Heck on the AVA Digital Human
                 project with the goal of creating an intelligent digital human
@@ -37,7 +37,7 @@ function Research({ flipped, expanded, ExpandCollapseIcon }) {
           org="Center for AI Safety"
           expanded={expanded}
           content={
-            <ul className="list-disc list-inside">
+            <ul className="list-disc textContent">
               <li>
                 Learned and implemented ML deep learning models for image
                 classification and NLP applications

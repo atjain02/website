@@ -4,10 +4,12 @@ html {
   /* max-height: 100vh; */
   /* overflow: hidden; */
   /* background-color: blue; */
-  height: 100%
+  overscroll-behavior: none;
+  height: 100%;
 }
 
 body {
   /* background: rgba(1, 1, 1, 0); */
   /* height: 100%; */
+  overscroll-behavior: none;
 }

@@ -4,7 +4,7 @@
 
 @layer components {
   .section {
-    @apply flex flex-row items-stretch object-center justify-between m-4 p-2 rounded-2xl shadow-md bg-white dark:bg-slate-600 dark:text-white;
+    @apply flex flex-row items-stretch object-center justify-between m-4 my-8 p-2 rounded-2xl shadow-2xl bg-white dark:bg-slate-600 dark:text-white dark:shadow-inner dark:shadow-black;
   }
 
   .clickable {
@@ -37,5 +37,13 @@
 
   .skillsIconsResp {
     @apply flex flex-row space-x-4 flex-wrap mx-4 justify-center
+  }
+
+  .textLabel {
+    @apply font-bold text-left text-xl
+  }
+
+  .textContent {
+    @apply text-lg list-outside ml-4
   }
 }
